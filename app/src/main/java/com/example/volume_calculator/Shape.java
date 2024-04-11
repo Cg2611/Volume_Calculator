@@ -1,7 +1,6 @@
 package com.example.volume_calculator;
 
 public class Shape {
-
     int shapeImg;
     String shapeName;
 
@@ -14,12 +13,11 @@ public class Shape {
         return shapeImg;
     }
 
-    public String getShapeName() {
-        return shapeName;
-    }
-
     public void setShapeImg(int shapeImg) {
         this.shapeImg = shapeImg;
+    }
+    public String getShapeName() {
+        return shapeName;
     }
 
     public void setShapeName(String shapeName) {
